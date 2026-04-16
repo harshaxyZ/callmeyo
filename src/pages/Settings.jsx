@@ -1,4 +1,4 @@
-import { ArrowLeft, UserPlus, FileDown, Edit3 } from 'lucide-react';
+import { ArrowLeft, UserPlus, Users, Edit3 } from 'lucide-react';
 
 export default function Settings({ onNavigate }) {
   return (
@@ -17,7 +17,7 @@ export default function Settings({ onNavigate }) {
         </button>
         
         <button className="menu-item" onClick={() => onNavigate('import')}>
-          <FileDown />
+          <Users />
           ಸಂಪರ್ಕಗಳನ್ನು ಆಮದು ಮಾಡಿ (Import)
         </button>
         
